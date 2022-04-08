@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Rubik+Wet+Paint&display=swap');
+
+body {
+    background-color: rgb(245, 170, 210);
+}
+
+.heading {
+    text-align: center;
+}
+
+.playground-heading {
+    color: darkcyan;
+    font-family: 'Rubik Wet Paint', cursive;
+    font-size: 5rem;
+}
+
+.main {
+border: 3px solid grey;
+width: 55%;
+margin: 0 auto;
+}
+
+.main div {
+height: 200px;
+width: 200px;
+border: 1px solid black;
+border-radius: 50%;
+margin: 2rem auto;
+}
+#red {
+border-color: red;
+}
+#yellow {
+border-color: yellow;
+}
+#green {
+    border-color: green;
+}
+
+.footer {
+    color: blueviolet;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem;
+}
